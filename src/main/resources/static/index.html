@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<form action="sendmail" method="GET">
+Destinatário: <br>
+    <input type="text" id="destinatario" name="destinatario" modelAttribute="destinatario"><br>
+Assunto: <br>
+    <input type="text" name="assunto" modelAttribute="assunto"><br>
+Mensagem: <br>
+    <input type="text" name="mensagem" modelAttribute="mensagem"><br> <br>
+Anexo: <br>
+    <input type="file" name="pic" accept="image/*">
+    <input type="submit" value="Enviar">
+</form>
+ <table action="getInboxMessages" method="GET">
+
+
+ </table>
+
+
+</body>
+</html>
